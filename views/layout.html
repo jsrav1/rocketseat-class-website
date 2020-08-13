@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    {% block head %}
+    <title>Rainer Viguini</title>
+    {% endblock %}
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Sobre a Rocketseat</a>
+            <a href="/portfolio">Aulas indicadas pelo DEV!</a>
+        </div>
+
+    </header>
+
+    {% block content %}{% endblock %}
+
+
+
+</body>
+
+</html>
